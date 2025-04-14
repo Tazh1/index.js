@@ -1,0 +1,91 @@
+.secondary {
+  background: #ff99e9;
+}
+.info {
+  background: #33a0ff;
+}
+.warning {
+  background: #ffc633;
+}
+.success {
+  background: #22c33d;
+}
+.danger {
+  background: #f53d5c;
+}
+
+.text-success {
+  color: #22c33d;
+}
+.text-danger {
+  color: #f53d5c;
+}
+.card {
+  border-radius: 8px;
+  flex: 1;
+  min-width: 0;
+  margin-left: 8px;
+  margin-right: 8px;
+  border: 1px solid #3d86f4;
+}
+.card-title {
+  padding: 8px;
+  border-radius: 8px 8px 0 0;
+  text-align: center;
+}
+.card-body {
+  border-radius: 0 0 8px 8px;
+  background: #f7f7f7;
+}
+.task {
+  margin: 8px;
+  padding: 8px;
+  background: #fff;
+  border-radius: 4px;
+  border: 1px solid #000;
+  word-break: break-all;
+  cursor: pointer;
+}
+.app {
+  display: flex;
+}
+.btn {
+  background: none;
+  border: none;
+  cursor: pointer;
+  padding: 0;
+}
+.icon-btn {
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 50%;
+}
+.btn-primary {
+  color: #3d86f4;
+}
+.btn-danger {
+  color: #f53d5c;
+}
+.btn-success {
+  color: #22c33d;
+}
+textarea {
+  resize: none;
+  width: -webkit-fill-available;
+  margin: 4px 8px;
+}
+.input-group {
+  position: relative;
+}
+.actions {
+  position: absolute;
+  top: 0;
+  right: 0;
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+  padding: 5px;
+  margin-right: 8px;
+  margin-top: 8px;
+}
